@@ -43,6 +43,11 @@ in annotations.json, the path of screenshot_image should be ".\screenshots\andro
 
 保存图像文件：将当前带有标注框的页面保存到当前文件目录中，默认为test.png
 
+Control 切换添加框模式/删除模式。
+* 添加框模式点击两点创建框
+* 删除模式点击选择框，delete/backspace键删除
+* > 所有操作后只有点击保存才会写入到annotations.json中
+
 # 导出所有带有标注框的图片
 
 运行dump_bbox_anno.py
